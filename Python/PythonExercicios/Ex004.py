@@ -1,4 +1,3 @@
-print('====== DESAFIO 04 ======')
 entrada = input('Digite algo ==> ')
 print(f'Tipo ==> {type(entrada)}\nMaiúscula ==> {entrada.isupper()}\nMinúscula ==> {entrada.islower()}'
       f'\nAlfanumérico ==> {entrada.isalnum()}\nAlfabético ==> {entrada.isalpha()}\nASCII ==> {entrada.isascii()}'
