@@ -2,4 +2,4 @@
 # apresentação de trabalhos dos alunos. Faça um programa que leia
 # o nome dos quatro alunos e mostre a ordem sorteada.
 
-from random import
+from random import random
