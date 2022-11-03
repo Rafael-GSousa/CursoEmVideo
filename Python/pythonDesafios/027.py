@@ -7,3 +7,5 @@
 nome = input('Digite um nome completo: ')
 dividido = nome.split()
 print(f'primeiro = {dividido[0]} \núltimo = {dividido[3]}')
+
+
