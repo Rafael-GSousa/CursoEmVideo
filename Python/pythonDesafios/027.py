@@ -6,6 +6,7 @@
 
 nome = input('Digite um nome completo: ')
 dividido = nome.split()
-print(f'primeiro = {dividido[0]} \núltimo = {dividido[3]}')
+print(f"""primeiro = {dividido[0]}
+último = {dividido[3]}""")
 
 
