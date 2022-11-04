@@ -4,9 +4,7 @@
 # primeiro = Ana
 # último = Souza
 
-nome = input('Digite um nome completo: ')
+nome = str(input('Digite um nome completo: ')).strip()
 dividido = nome.split()
 print(f"""primeiro = {dividido[0]}
-último = {dividido[3]}""")
-
-
+último = {dividido[len(dividido) - 1]}""")
