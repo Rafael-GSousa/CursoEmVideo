@@ -24,6 +24,11 @@ Todas as letras minúsculas ==> {nome.lower()}
 Quantas letras no total (sem os espaços) ==> {len(nome) - nome.count(" ")}
 Quantas letras têm no primeiro nome ==> {len(nome.split()[0])}""")
 
+
+# Abaixo seria usado na linha 25
+# Quantas letras têm no primeiro nome ==> {nome.find(" ")}
+# O método find encontraria a posição do 1º espaço que também seria o total de letras do 1º nome
+
 # Abaixo seria usado na linha 24
 # Quantas letras no total (sem os espaços) ==> {len(juntaNome)}
 # Obs.: na linha 24 foi utilizado o tamanho da string menos a quantidade
