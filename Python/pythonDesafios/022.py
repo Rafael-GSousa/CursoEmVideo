@@ -27,4 +27,4 @@ Quantas letras têm no primeiro nome ==> {len(nome.split()[0])}""")
 # Abaixo seria usado na linha 24
 # Quantas letras no total (sem os espaços) ==> {len(juntaNome)}
 # Obs.: na linha 24 foi utilizado o tamanho da string menos a quantidade
-# de espaços que foram contados
+# de espaços que foram contados com o método count()
