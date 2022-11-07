@@ -3,7 +3,7 @@
 # foi multado.
 # A multa vai custar R$7,00 por cada Km acima do limite.
 
-v = float(input('Qual a velocidade percorrida pelo carro?\n'))
+v = float(input('Qual a velocidade atual do carro?\n'))
 if v > 80:
     m = (v - 80) * 7
     print(f"""Você ultrapassou em {v - 80:.2f}Km do limite e 
