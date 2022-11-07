@@ -3,12 +3,15 @@
 # Para salários superiores a R$1250,00, calcule um aumento de 10%.
 # Para os inferiores ou iguais, o aumento é de 15%.
 
-sal = float(input('Qual o salário do funcionário? '))
+sal = float(input('Qual o salário do funcionário? R$'))
+
 if sal > 1250.00:
-    print(f"""Salário atual ==> R${sal:.2f}
-Aumento de 10% ==> R${sal * 0.10:.2f}
-Novo salário ==> R${sal *1.10:.2f}""")
+    perc = 10 / 100
+    novo = sal + (sal * perc)
 else:
-    print(f"""Salário atual ==> R${sal:.2f}
-Aumento de 15% ==> R${sal * 0.15:.2f}
-Novo salário ==> R${sal * 1.15:.2f}""")
+    perc = 15 / 100
+    novo = sal + (sal * perc)
+
+print(f"""Salário atual ==> R${sal:.2f}
+Aumento de {perc * 100:.2f}% ==> R${sal * perc:.2f}
+Novo salário ==> R${novo:.2f}""")
