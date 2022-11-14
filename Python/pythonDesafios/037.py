@@ -12,13 +12,16 @@ base = int(input("""Escolha a base de conversão:
 Base ==> """))
 conversao = 0
 if base == 1:
-    base = 2
+    base = '2 (Binário)'
     conversao = bin(numero)
 elif base == 2:
-    base = 8
+    base = '8 (Octal)'
     conversao = oct(numero)
 elif base == 3:
-    base = 16
+    base = '16 (Hexadecimal)'
     conversao = hex(numero)
+else:
+    print('Opção inválida. Tente novamente.')
+    exit()
 
-print(f'{numero} na base {base} é igual a {conversao}')
+print(f'{numero} na base {base} é igual a {conversao[2::].upper()}')
