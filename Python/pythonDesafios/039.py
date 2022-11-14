@@ -16,9 +16,14 @@ msg = ''
 tempo = idade - 17
 
 if idade > 17:
-    msg = f'Você já passou em {tempo} ano(s) do prazo de alistamento.'
+    msg = f'''Quem nasceu em {anoNasc} tem {idade} anos em {anoAtual}.
+Você já deveria ter se alistado há {tempo} ano(s).
+Seu alistamento foi em {anoAtual - tempo}.'''
 elif idade == 17:
-    msg = f'Você está com {idade} anos e já está na hora de se alistar.'
+    msg = f'''Quem nasceu em {anoNasc} tem {idade} anos.
+Você tem que se alistar IMEDIATAMENTE!'''
 else:
-    msg = f'Não chegou sua hora de se alistar, ainda falta(m) {tempo * (-1)} ano(s).'
+    msg = f'''Quem nasceu em {anoNasc} tem {idade} anos.
+Ainda faltam {tempo * (-1)} anos para o alistamento.
+Seu alistamento será em {anoAtual + tempo}.'''
 print(msg)
