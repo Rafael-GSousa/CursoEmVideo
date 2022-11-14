@@ -26,4 +26,5 @@ elif idade == 20:
 else:
     categoria = 'MASTER'
 
-print(f'Idade do atleta ==> {idade} anos\nCategoria do atleta ==> {categoria}')
+print(f"""Idade do atleta ==> {idade} anos
+Categoria do atleta ==> {categoria}""")
