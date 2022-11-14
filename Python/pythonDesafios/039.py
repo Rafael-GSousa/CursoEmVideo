@@ -13,13 +13,13 @@ anoNasc = int(input('Digite seu ano de nascimento: '))
 idade = anoAtual - anoNasc
 
 msg = ''
-tempo = idade - 17
+tempo = idade - 18
 
-if idade > 17:
+if idade > 18:
     msg = f'''Quem nasceu em {anoNasc} tem {idade} anos em {anoAtual}.
 Você já deveria ter se alistado há {tempo} ano(s).
 Seu alistamento foi em {anoAtual - tempo}.'''
-elif idade == 17:
+elif idade == 18:
     msg = f'''Quem nasceu em {anoNasc} tem {idade} anos.
 Você tem que se alistar IMEDIATAMENTE!'''
 else:
