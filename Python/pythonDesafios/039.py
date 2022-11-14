@@ -9,11 +9,17 @@
 from datetime import date
 anoAtual = date.today().year
 
+sexo = str(input('Sexo M - Masculino | F - Feminino: ')).strip().upper()
+if sexo == 'F':
+    print('Você não precisa fazer o alistamento obrigatório!')
+    exit()
+
 anoNasc = int(input('Digite seu ano de nascimento: '))
 idade = anoAtual - anoNasc
 
 msg = ''
 tempo = idade - 18
+
 
 if idade > 18:
     msg = f'''Quem nasceu em {anoNasc} tem {idade} anos em {anoAtual}.
