@@ -13,17 +13,17 @@ msg = ''
 
 if media < 5.0:
     msg = f"""Aluno(a) ==> {aluno}
-1ª e 2ª nota ==> {n1} e {n2}
-Média ==> {media}
+1ª e 2ª nota ==> {n1:.1f} e {n2:.1f}
+Média ==> {media:.1f}
 Situação ==> REPROVADO(A)"""
 elif 5.0 <= media <= 6.9:
     msg = f"""Aluno(a) ==> {aluno}
-1ª e 2ª nota ==> {n1} e {n2}
-Média ==> {media}
+1ª e 2ª nota ==> {n1:.1f} e {n2:.1f}
+Média ==> {media:.1f}
 Situação ==> RECUPERAÇÃO"""
 else:
     msg = f"""Aluno(a) ==> {aluno}
-1ª e 2ª nota ==> {n1} e {n2}
-Média ==> {media}
+1ª e 2ª nota ==> {n1:.1f} e {n2:.1f}
+Média ==> {media:.1f}
 Situação ==> APROVADO(A)"""
 print(msg)
