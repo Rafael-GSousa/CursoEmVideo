@@ -18,7 +18,7 @@ print(f"""Valor do imóvel ==> R$ {valor:.2f}
 Salário ==> R$ {salario:.2f}
 Anos de financiamento ==> {anos}
 Quantidade de prestações ==> {anos * 12}
-Valor da prestação ==> {prestacao}\n""")
+Valor da prestação ==> {prestacao:.2f}\n""")
 print(f'Calculando...\n')
 sleep(3)
 print('Gerando resultado...\n')
