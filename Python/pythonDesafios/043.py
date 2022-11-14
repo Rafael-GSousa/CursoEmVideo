@@ -6,22 +6,22 @@
 # - 30 até 40: Obesidade
 # - Acima de 40: Obesidade mórbida
 from math import pow
-peso = float(input('Qual é o seu peso? '))
-altura = float(input('Qual é a sua altura? '))
+peso = float(input('Qual é o seu peso? (Kg) '))
+altura = float(input('Qual é a sua altura? (m) '))
 imc = peso / pow(altura, 2)
 resultado = ''
 if imc < 18.5:
     resultado = 'Abaixo do peso'
-elif 18.5 <= imc <= 25:
-    resultado = 'Peso ideal'
-elif 25 <= imc <= 30:
+elif imc <= 25:
+    resultado = 'Peso normal'
+elif imc <= 30:
     resultado = 'Sobrepeso'
-elif 30 <= imc <= 40:
+elif imc <= 40:
     resultado = 'Obesidade'
 else:
     resultado = 'Obesidade mórbida'
 
-print(f"""Peso ==> {peso:.2f}
-Altura ==> {altura:.2f}
-IMC ==> {imc:.2f}
+print(f"""Peso ==> {peso:.1f}
+Altura ==> {altura:.1f}
+IMC ==> {imc:.1f}
 Resultado ==> {resultado}""")
