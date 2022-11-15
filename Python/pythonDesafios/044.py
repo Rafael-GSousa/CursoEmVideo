@@ -25,10 +25,14 @@ elif opcao == 4:
     parcelas = int(input('Qual é a quantidade de parcelas? '))
     if 3 <= parcelas <= 10:
         total = produto * 1.2
+        sleep(1.5)
         print(f'Sua compra será parcelada em {parcelas}x de R${total / parcelas:.2f} COM JUROS.')
     else:
+        sleep(1.5)
         print('Número de parcelas inválido!')
         exit()
 else:
+    sleep(1.5)
     print('Forma de pagamento inválida! Tente novamente!')
+sleep(1.5)
 print(f'Sua compra de R${produto:.2f} vai custar R${total:.2f}.')
