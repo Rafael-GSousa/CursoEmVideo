@@ -4,7 +4,8 @@
 
 pTermo = int(input('1º termo de uma PA: '))
 razao = int(input('Razão da PA: '))
-pa = pTermo
-for i in range(0, 10):
-    print(pa, end=" ")
-    pa += razao
+termos = 10
+uTermo = pTermo + (termos-1) * razao
+uTermo = uTermo + 1
+for i in range(pTermo, uTermo, razao):
+    print(i, end=" ")
