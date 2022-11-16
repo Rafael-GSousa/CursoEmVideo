@@ -20,11 +20,13 @@ print('KEN')
 sleep(1)
 print('PÔ!!!')
 
+sleep(2)
 print('-=' * 12)
 print(f"""Computador jogou {itens[computador]}
 Jogador jogou {itens[jogador]}""")
 print('-=' * 12)
 
+sleep(1)
 if computador == 0:  # Computador jogou PEDRA
     if jogador == 0:
         print('EMPATE!')
