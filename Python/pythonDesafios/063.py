@@ -5,10 +5,11 @@ n = int(input('Digite um valor: '))
 primeiro = 0
 segundo = 1
 fibo = 0
-print(f'{primeiro} {segundo}', end=' ')
+print(f'{primeiro} -> {segundo}', end=' -> ')
 while n - 2 > 0:
     fibo = primeiro + segundo
-    print(f'{fibo}', end=' ')
+    print(f'{fibo}', end=' -> ')
     primeiro = segundo
     segundo = fibo
     n -= 1
+print('FIM')
