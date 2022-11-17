@@ -2,16 +2,20 @@
 # mostrar mais alguns termos. O programa encerra quando ele disser
 # que quer mostrar 0 termos.
 
-pTermo = int(input('1º termo da PA: '))
-razao = int(input('Razão da PA: '))
-n = 10
-outros = 1
-uTermo = pTermo + (n - 1) * razao
-while pTermo <= uTermo:
-    print(pTermo, end=' ')
-    pTermo += razao
-while outros != 0 and pTermo <= uTermo:
-    outros = int(input('\nQuantos termos a mais que mostrar? '))
-    n += outros
-    print(pTermo, end=' ')
-    pTermo += razao
+print('Gerador de PA')
+print('-=' * 10)
+primeiro = int(input('1º termo: '))
+razao = int(input('Razão: '))
+termo = primeiro
+cont = 1
+total = 0
+mais = 10
+while mais != 0:
+    total += mais
+    while cont <= total:
+        print(f'{termo}', end=' ')
+        termo += razao
+        cont += 1
+    print('PAUSA')
+    mais = int(input('Quantos termos você quer mostrar a mais? '))
+print(f'Progressão finalizada com {total} termos mostrados.')
