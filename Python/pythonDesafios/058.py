@@ -4,11 +4,17 @@
 
 from random import randint
 computador = randint(0, 10)
-jogador = int(input('Escolha um número entre 0 e 10: '))
+jogador = int(input('''Sou seu computador...
+Acabei de pensar em um número entre 0 e 10.
+Será que você consegue adivinhar qual foi?
+Qual é seu palpite? '''))
 tentativas = 1
 while computador != jogador:
-    jogador = int(input('Escolha um número entre 0 e 10: '))
+    if computador > jogador:
+        jogador = int(input('''Mais... Tente mais uma vez.
+Qual é seu palpite? '''))
+    else:
+        jogador = int(input('''Menos... Tente mais uma vez.
+Qual é seu palpite? '''))
     tentativas += 1
-print(f'''Escolha do computador ==> {computador}
-Escolha do jogador ==> {jogador}
-Nº de tentativas ==> {tentativas}''')
+print(f'Acertou com {tentativas} tentativas. Parabéns!')
