@@ -16,7 +16,7 @@ while not acertou:
         acertou = True
     else:
         if computador > jogador:
-            print('Mais... ', end='')
+            print('Mais... Tente mais uma vez.')
         else:
-            print('Menos... ', end='')
+            print('Menos... Tente mais uma vez.')
 print(f'Acertou com {tentativas} tentativas. Parabéns!')
