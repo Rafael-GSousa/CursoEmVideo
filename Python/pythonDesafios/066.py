@@ -4,7 +4,7 @@
 # digitados e qual foi a soma entre eles (desconsiderando o flag)
 cont = soma = 0
 while True:
-    n = int(input('Digite um número: '))
+    n = int(input('Digite um número (999 para encerrar): '))
     if n == 999:
         break
     else:
