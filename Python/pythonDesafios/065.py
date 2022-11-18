@@ -7,19 +7,15 @@ opcao = 'S'
 soma = maior = menor = media = cont = 0
 while opcao != 'N':
     n = int(input('Digite um número: '))
-    opcao = str(input('Quer continuar? S/N: ')).strip().upper()
-    if 'N' != opcao != 'S':
-        print('Opção Inválida!')
+    opcao = str(input('Quer continuar? S/N: ')).strip().upper()[0]
+    soma += n
+    cont += 1
+    if cont == 1:
+        maior = menor = n
     else:
-        soma += n
-        if maior == 0:
+        if n > maior:
             maior = n
+        if n < menor:
             menor = n
-        else:
-            if n > maior:
-                maior = n
-            elif n < menor:
-                menor = n
-        cont += 1
 media = soma / cont
 print(f'Valores = {cont} | Soma = {soma} | Média = {media:.2f} | Maior = {maior} | Menor = {menor}')
