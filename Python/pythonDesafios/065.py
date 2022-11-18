@@ -4,10 +4,9 @@
 # usuário se ele quer ou não continuar a digitar valores.
 
 opcao = 'S'
-soma = maior = menor = media = cont = 0
-while opcao != 'N':
+soma = maior = menor = media = cont = n = 0
+while opcao in 'Ss':
     n = int(input('Digite um número: '))
-    opcao = str(input('Quer continuar? S/N: ')).strip().upper()[0]
     soma += n
     cont += 1
     if cont == 1:
@@ -17,5 +16,6 @@ while opcao != 'N':
             maior = n
         if n < menor:
             menor = n
+    opcao = str(input('Quer continuar? S/N: ')).strip().upper()[0]
 media = soma / cont
 print(f'Valores = {cont} | Soma = {soma} | Média = {media:.2f} | Maior = {maior} | Menor = {menor}')
