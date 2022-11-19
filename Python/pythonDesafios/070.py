@@ -11,22 +11,18 @@ baratoNome = ''
 while True:
     produto = str(input('Nome do Produto: ')).strip().capitalize()
     preco = float(input('Preço do Produto: R$'))
-    if preco > 1000:
-        contMil += 1
     total += preco
     contProduto += 1
-    if contProduto == 1:
+    if preco > 1000:
+        contMil += 1
+    if contProduto == 1 or baratoPreco > preco:
         baratoNome = produto
         baratoPreco = preco
-    elif baratoPreco > preco:
-        baratoPreco = preco
-        baratoNome = produto
-    continua = str(input('Quer continuar? [S/N]: ')).strip().upper()[0]
-    if continua in 'N':
+    continua = ' '
+    while continua not in 'SN':
+        continua = str(input('Quer continuar? [S/N]: ')).strip().upper()[0]
+    if continua == 'N':
         break
-    else:
-        while continua != 'S':
-            continua = str(input('Quer continuar? [S/N]: ')).strip().upper()[0]
 print(f'{" FIM DO PROGRAMA ":-^30}')
 print(f'O total da compra foi R${total:.2f}')
 print(f'Temos {contMil} produtos custando mais de R$1000,00')
