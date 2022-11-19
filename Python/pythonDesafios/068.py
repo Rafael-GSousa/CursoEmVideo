@@ -5,35 +5,33 @@ from random import randint
 
 print('=-' * 15)
 print('VAMOS JOGAR PAR OU ÍMPAR')
-soma = cont = 0
-perdeuGanhou = deuParImpar = ''
+vitorias = 0
 while True:
-    computador = randint(0, 10)
     print('=-' * 15)
-    valor = int(input('Diga um valor: '))
-    parImpar = str(input('Par ou Ímpar? [P/I]:')).strip().upper()[0]
+    computador = randint(0, 10)
+    jogador = int(input('Diga um valor: '))
+    total = jogador + computador
+    tipo = ' '
+    while tipo not in 'PI':
+        tipo = str(input('Par ou Ímpar? [P/I]:')).strip().upper()[0]
+    print(f'Você jogou {jogador} e o computador {computador}. Total de {total}, ', end="")
+    print('DEU PAR' if total % 2 == 0 else 'DEU ÍMPAR')
     print('-' * 30)
-    soma = computador + valor
-    if soma % 2 == 0:
-        deuParImpar = 'DEU PAR.'
-        if parImpar == 'P':
-            perdeuGanhou = 'GANHOU'
-            cont += 1
+    if tipo == 'P':
+        if total % 2 == 0:
+            print('Você VENCEU!')
+            vitorias += 1
         else:
-            perdeuGanhou = 'PERDEU'
-    else:
-        deuParImpar = 'DEU ÍMPAR.'
-        if parImpar == 'I':
-            perdeuGanhou = 'GANHOU'
-            cont += 1
+            print('Você PERDEU!')
+            break
+    elif tipo == 'I':
+        if total % 2 == 1:
+            print('Você VENCEU!')
+            vitorias += 1
         else:
-            perdeuGanhou = 'PERDEU'
-    print(f'Você jogou {valor} e o computador {computador}. Total de {valor + computador}, {deuParImpar}')
+            print('Você PERDEU!')
+            break
     print('-' * 30)
-    print(f'Você {perdeuGanhou}!')
-    if perdeuGanhou in 'GANHOU':
-        print(f'Vamos jogar novamente...')
-    elif perdeuGanhou in 'PERDEU':
-        break
+    print(f'Vamos jogar novamente...')
 print('=-' * 15)
-print(f'GAME OVER! Você ganhou {cont} vezes.')
+print(f'GAME OVER! Você ganhou {vitorias} vezes.')
