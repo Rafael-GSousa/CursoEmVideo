@@ -12,7 +12,7 @@ while True:
     print("-" * 40)
     idade = int(input('Idade: '))
     sexo = str(input('Sexo [M/F]: ')).strip().upper()[0]
-    print("-" * 40)
+
     while 'M' != sexo != 'F':
         sexo = str(input('Sexo [M/F]: ')).strip().upper()[0]
     if idade > 18:
@@ -22,6 +22,7 @@ while True:
     elif sexo in 'Ff':
         if idade < 20:
             contMulheres += 1
+    print("-" * 40)
     continua = str(input('Gostaria de continuar? [S/N]: ')).strip().upper()[0]
     while 'S' != continua != 'N':
         continua = str(input('Gostaria de continuar? [S/N]: ')).strip().upper()[0]
