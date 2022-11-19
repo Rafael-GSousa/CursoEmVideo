@@ -14,13 +14,12 @@ while True:
     sexo = ' '
     while sexo not in 'FM':
         sexo = str(input('Sexo [M/F]: ')).strip().upper()[0]
-    if idade > 18:
+    if idade >= 18:
         contIdade += 1
     if sexo == 'M':
         homens += 1
-    if sexo == 'F':
-        if idade < 20:
-            mulheres += 1
+    if sexo == 'F' and idade < 20:
+        mulheres += 1
     print("-" * 40)
     continua = ' '
     while continua not in 'SN':
