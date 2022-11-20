@@ -4,14 +4,15 @@
 from random import randint
 
 tupla = (randint(0, 100), randint(0, 100), randint(0, 100), randint(0, 100), randint(0, 100))
-print(tupla)
-print(sorted(tupla))
 maior = menor = 0
-for i in range(0, len(tupla)):
+for i in range(0, 5):
     if i == 0:
+        print(f'Os valores sorteados foram: ', end='')
         maior = menor = tupla[i]
     elif tupla[i] > maior:
         maior = tupla[i]
     elif tupla[i] < menor:
         menor = tupla[i]
-print(f'O maior número é {maior} e o menor é {menor}')
+    print(f'{tupla[i]}', end=' ')
+print(f'''\nO maior valor sorteado foi {maior}
+O menor valor sorteado foi {menor}''')
