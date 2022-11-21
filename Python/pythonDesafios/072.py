@@ -2,16 +2,18 @@
 # preenchida com uma contagem por extenso, de zero até vinte.
 # Seu programa deverá ler um número pelo teclado(entre 0 e 20)
 # e mostrá-lo por extenso.
-t1 = ('Zero', 'Um', 'Dois', 'Três', 'Quatro', 'Cinco')
-t2 = ('Seis', 'Sete', 'Oito', 'Nove', 'Dez')
-t3 = ('Onze', 'Doze', 'Treze', 'Catorze', 'Quinze')
-t4 = ('Dezesseis', 'Dezessete', 'Dezoito', 'Dezenove', 'Vinte')
-t5 = t1 + t2 + t3 + t4
-# print(t5)
+cont = ('Zero', 'Um', 'Dois', 'Três', 'Quatro', 'Cinco',
+        'Seis', 'Sete', 'Oito', 'Nove', 'Dez',
+        'Onze', 'Doze', 'Treze', 'Catorze', 'Quinze',
+        'Dezesseis', 'Dezessete', 'Dezoito', 'Dezenove', 'Vinte')
 while True:
     numero = int(input('Digite um número inteiro entre 0 e 20: '))
     if 0 <= numero <= 20:
-        print(f'Você digitou o número {t5[numero]}')
-        break
+        print(f'Você digitou o número {cont[numero]}')
     else:
         print('Número inválido! Tente novamente.')
+    continua = ' '
+    while continua not in "SN":
+        continua = str(input('Quer continuar? [S/N]: ')).upper().strip()
+    if continua in 'N':
+        break
