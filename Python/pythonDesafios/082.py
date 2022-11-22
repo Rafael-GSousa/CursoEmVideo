@@ -1,6 +1,4 @@
-lista = list()
-l2 = list()
-l3 = list()
+lista = l2 = l3 = list()
 while True:
     lista.append(int(input('Digite um valor: ')))
     continua = ' '
