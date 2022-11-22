@@ -5,6 +5,6 @@ tupla = ('Aprender', 'Programar', 'Linguagem', 'Python', 'Curso', 'Gratis',
 for i in tupla:
     print(f'Na palavra {i.upper()} temos ', end='')
     for j in i:
-        if j in "AEIOUaeiou":
-            print(j.lower(), end=' ')
+        if j.lower() in "aeiou":
+            print(j, end=' ')
     print('')
