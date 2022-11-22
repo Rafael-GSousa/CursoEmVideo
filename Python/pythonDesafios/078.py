@@ -3,8 +3,6 @@
 # respectivas posições na lista.
 valores = list()
 maior = menor = 0
-posMaior = list()
-posMenor = list()
 
 for pos in range(0, 5):
     valores.append(int(input(f'Digite um valor para a Posição {pos}: ')))
