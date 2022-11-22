@@ -19,18 +19,11 @@ for c in range(0, 5):
                 break
             posicao += 1
 
-
-
-
-
-
-# Utilizando Bubble Sort
-# for pos in range(0, 5):
-#     lista.append(int(input('Digite um valor: ')))
-#     for i in range(0, len(lista)):
-#         for j in range(0, len(lista) - 1):
-#             if lista[j] > lista[j + 1]:
-#                 aux = lista[j]
-#                 lista[j] = lista[j + 1]
-#                 lista[j + 1] = aux
+# Utilizando Bubble Sort para ordenar
+# for i in range(0, len(lista)):
+#     for j in range(0, len(lista) - 1):
+#         if lista[j] > lista[j + 1]:
+#             aux = lista[j]
+#             lista[j] = lista[j + 1]
+#             lista[j + 1] = aux
 print(f'Os valores adicionados foram: {lista}')
