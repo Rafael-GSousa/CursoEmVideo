@@ -1,6 +1,8 @@
+# 1ª Parte
 peso = list()
 aux = list()
 cont = 0
+# Lendo os nomes e os pesos e colocando na lista
 while True:
     aux.append(str(input('Nome: ')))
     aux.append(float(input('Peso: ')))
@@ -12,19 +14,26 @@ while True:
         continua = str(input('Quer continuar? [S/N]: ')).upper().strip()
     if continua == 'N':
         break
+
+# 2ª Parte
 maior = menor = 0
 pessoaMaior = list()
 pessoaMenor = list()
-for i in range(0, len(peso)):
-    if i == 0:
-        maior = menor = peso[i][1]
-    else:
-        if peso[i][1] >= maior:
-            maior = peso[i][1]
-            pessoaMaior.insert(i, peso[i][0])
-        elif peso[i][1] <= menor:
-            menor = peso[i][1]
-            pessoaMenor.insert(i, peso[i][0])
+# Percorrendo a lista e identificando o menor e o maior peso
+# Adicionando o nome da pessoa com maior e com menor peso em outras duas listas
+for i in peso:
+    if peso.index(i) == 0:
+        maior = menor = i[1]
+    if i[1] >= maior:
+        maior = i[1]
+        pessoaMaior.append(i[0])
+    elif i[1] <= menor:
+        menor = i[1]
+        pessoaMenor.append(i[0])
+
+# 3ª Parte
+# Exibindo os resultados
+print(peso)
 print(f'Foram cadastradas {cont} pessoas')
 print(f'As pessoas com menor peso de {menor:.2f} são {pessoaMenor}')
 print(f'As pessoas com maior peso de {maior:.2f} são {pessoaMaior}')
