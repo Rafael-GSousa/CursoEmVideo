@@ -14,12 +14,11 @@ for i in range(0, 3):
                 maior = n
         matriz[i].append(n)
 print('-=' * 20)
-print('Matriz')
+print(f'{"Matriz":^20}')
 for i in matriz:
     for j in i:
         print(f'[ {j} ]', end=' ')
-    if i.index(j) == 2:
-        print()
+    print()
 print('-=' * 20)
 print(f'Soma dos valores pares digitados: {somaPares}')
 print(f'Soma dos valores da 3ª coluna: {somaTerceiraColuna}')
