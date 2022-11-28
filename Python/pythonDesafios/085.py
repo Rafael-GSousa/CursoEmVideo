@@ -1,17 +1,16 @@
 valores = []
 pares = list()
 impares = list()
-for i in range(0, 7):
-    n = int(input('Digite um valor: '))
+for i in range(1, 8):
+    n = int(input(f'Digite o {i}º valor: '))
     if n % 2 == 0:
         pares.append(n)
     else:
         impares.append(n)
-pares.sort()
-impares.sort()
 valores.append(impares)
 valores.append(pares)
-valores.sort()
+pares.sort()
+impares.sort()
 print('-=' * 30)
 print(f'Lista completa : {valores}')
 print(f'Os valores pares são {pares}')
