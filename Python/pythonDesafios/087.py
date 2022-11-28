@@ -17,7 +17,7 @@ print('-=' * 20)
 print(f'{"Matriz":^20}')
 for i in matriz:
     for j in i:
-        print(f'[ {j} ]', end=' ')
+        print(f'[{j:^10}]', end=' ')
     print()
 print('-=' * 20)
 print(f'Soma dos valores pares digitados: {somaPares}')
