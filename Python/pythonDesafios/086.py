@@ -4,5 +4,5 @@ for linha in range(0, 3):
         matriz[linha][coluna] = int(input(f'Digite um valor para a posição [{linha}, {coluna}]: '))
 for i in matriz:
     for j in i:
-        print(f'[ {j} ]', end=' ')
+        print(f'[{j:^10}]', end=' ')
     print()
