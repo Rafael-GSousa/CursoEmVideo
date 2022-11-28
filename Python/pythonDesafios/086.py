@@ -5,5 +5,4 @@ for linha in range(0, 3):
 for i in matriz:
     for j in i:
         print(f'[ {j} ]', end=' ')
-    if i.index(j) == 2:
-        print()
+    print()
