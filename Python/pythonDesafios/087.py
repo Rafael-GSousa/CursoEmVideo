@@ -1,5 +1,4 @@
-matriz = list()
-aux = list()
+matriz = [[], [], []]
 somaPares = somaTerceiraColuna = maior = 0
 for i in range(0, 3):
     for j in range(0, 3):
@@ -13,9 +12,7 @@ for i in range(0, 3):
                 maior = n
             elif n > maior:
                 maior = n
-        aux.append(n)
-    matriz.append(aux[:])
-    aux.clear()
+        matriz[i].append(n)
 print('-=' * 20)
 print('Matriz')
 for i in matriz:
