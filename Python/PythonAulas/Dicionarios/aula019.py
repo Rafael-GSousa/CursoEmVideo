@@ -29,3 +29,20 @@ print(brasil[0])
 print(brasil[1])
 print(brasil[0]['uf'])
 print(brasil[1]['sigla'])
+estado = dict()
+brasil1 = list()
+for c in range(0, 3):
+    estado['uf'] = str(input('Unidade Federativa: ')).strip()
+    estado['sigla'] = str(input('Sigla: ')).strip().upper()
+    brasil1.append(estado.copy())
+print(brasil1)
+for e in brasil1:
+    print(e)
+for e in brasil1:
+    for key, value in e.items():
+        print(f'{key} ==> {value}', end=' ')
+    print()
+for e in brasil1:
+    for valor in e.values():
+        print(valor, end=' ')
+    print()
