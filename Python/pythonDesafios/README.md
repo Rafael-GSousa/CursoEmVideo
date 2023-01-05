@@ -7,7 +7,7 @@
       <section>
         <h3 align="center"><i> Módulo - Primeiros passos com o Python </i></h3>
           <div>
-            <p align="justify"><a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/001.py"> 1. Faça um programa que leia o nome
+            <p align="justify"><a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/001.py" target="_blank"> 1. Faça um programa que leia o nome
             de uma pessoa e mostre uma mensagem de boas vindas. </a></p>
             <p align="justify"><a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/002.py"> 2. Crie um script Python que leia o
             dia, o mês e o ano de nascimento de uma pessoa e mostre uma mensagem com a data formatada. </a></p>
