@@ -261,6 +261,65 @@
       </p>
     </div>
   </section>  
-  
- 
+
+  <section>
+    <h3 align="center">
+      <i> 
+        Módulo - Condições em Python (if...else) 
+      </i>
+    </h3>
+    <div>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/028.py"> 
+          28. Escreva um programa que faça o computador "pensar" em um número inteiro de 0 a 5 e peça para o usuário tentar descobrir qual foi o número escolhido 
+          pelo computador. O programa deverá escrever na tela se o usuário venceu ou perdeu. 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/029.py"> 
+          29. Escreva um programa que leia a velocidade de um carro. Se ele ultrapassar 80Km/h, mostre uma mensagem dizendo que ele foi multado. A multa vai custar
+          R$7,00 por cada Km acima do limite. 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/030.py"> 
+          30. Crie um programa que leia um número inteiro e mostre na tela se ele é PAR ou IMPAR. 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/031.py"> 
+          31. Desenvolva um programa que pergunte a distância de uma viagem em Km. Calcule o preço da passagem, cobrando R$0,50 por Km para viagens de até 200Km e
+          R$0,45 para viagens mais longas.
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/032.py"> 
+          32. Faça um programa que leia um ano qualquer e mostre se ele é bissexto. 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/033.py"> 
+          33. Faça um programa que leia três números e mostre qual é o maior e qual é o menor. 
+        </a>
+      </p>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/034.py"> 
+          34. Escreva um programa que pergunte o salário de um funcionário e calcule o valor de seu aumento:
+          <ul>
+            <li>
+              Para salários superiores a R$1250,00, calcule um aumento de 10%.
+            </li>
+            <li>
+              Para os inferiores ou iguais, o aumento é de 15%.
+            </li>
+          </ul>
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/035.py"> 
+          35. Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
+        </a>
+      </p>            
+    </div>
+  </section>  
 </section>
