@@ -323,3 +323,423 @@
     </div>
   </section>  
 </section>
+
+<section>
+  <h2 align="center"> 
+    MUNDO 02 
+  </h2>   
+  
+  <section>
+    <h3 align="center">
+      <i> 
+        Módulo - Condições em Python (if...elif) 
+      </i>
+    </h3>
+    <div>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/036.py"> 
+          36. Escreva um programa para aprovar o empréstimo bancário para a compra de uma casa. O programa vai perguntar o valor da casa, o salário do comprador
+          e em quantos anos ele vai pagar.
+          Calcule o valor da prestação mensal, sabendo que ela não pode exceder 30% do salário ou então o empréstimo será negado. 
+        </a>
+      </p>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/037.py"> 
+          37. Escreva um programa que leia um número inteiro qualquer e peça para o usuário escolher qual será a base de conversão:
+          <ol>
+            <strong>
+              <li>
+               para binário;
+              </li>
+              <li>
+                para octal;
+              </li>
+              <li>
+                para hexadecimal.
+              </li>
+            </strong>
+          </ol>
+        </a>
+      </p>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/038.py"> 
+          38. Escreva um programa que leia dois números inteiros e compare-os, mostrando na tela uma mensagem:
+          <ul>
+            <strong>
+              <li>
+                O primeiro valor é maior;
+              </li>
+              <li>
+                O segundo valor é maior;
+              </li>
+              <li>
+                Não existe valor maior, os dois são iguais.
+              </li>
+            </strong>
+          </ul>
+        </a>
+      </p>      
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/039.py"> 
+          39. Faça um programa que leia o ano de nascimento de um jovem e informe, de acordo com sua idade:
+          <ul>
+            <strong>
+              <li>
+                Se ele ainda vai se alistar ao serviço militar;
+              </li>
+              <li>
+                Se é a hora dele se alistar;
+              </li>
+              <li>
+                Se ele já passou do tempo de alistamento.
+              </li>
+              <li>
+                Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
+              </li>
+            </strong>
+          </ul>
+        </a>
+      </p>      
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/040.py"> 
+          40. Crie um programa que leia duas notas de um aluno e calcule a sua média, mostrando uma mensagem no final, de acordo com a média atingida:
+          <ul>
+            <strong>
+              <li>
+                Média abaixo de 5.0: REPROVADO;
+              </li>
+              <li>
+                Média entre 5.0 e 6.9: RECUPERAÇÃO;
+              </li>
+              <li>
+                Média 7.0 ou superior: APROVADO.
+              </li>
+            </strong>
+          </ul>
+        </a>
+      </p>      
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/041.py"> 
+          41. A Confederação Nacional de Natação precisa de um programa que leia o ano de nascimento de um atleta e mostre sua categoria, de acordo com a idade:
+          <ul>
+            <strong>
+              <li>
+                Até 9 anos: MIRIM;
+              </li>
+              <li>
+                Até 14 anos: INFANTIL;
+              </li>
+              <li>
+                Até 19 anos: JÚNIOR;
+              </li>
+              <li>
+                Até 24 anos: SÊNIOR;
+              </li>
+              <li>
+                Acima: MASTER.
+              </li>
+            </strong>
+          </ul>
+        </a>
+      </p>      
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/042.py"> 
+          42. Refaça o desafio 035 dos triângulos, acrescentando o recurso de mostrar que tipo de triângulo será formado:
+          <ul>
+            <strong>
+              <li>
+                Equilátero: todos os lados iguais;
+              </li>
+              <li>
+                Isósceles: dois lados iguais;
+              </li>
+              <li>
+                Escaleno: todos os lados diferentes.
+              </li>
+            </strong>
+          </ul>
+        </a>
+      </p>      
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/043.py"> 
+          43. Desenvolva uma lógica que leia o peso e a altura de uma pessoa, calcule seu IMC e mostre seu status, de acordo com a tabela abaixo:
+          <ul>
+            <strong>
+              <li>
+                Abaixo de 18.5: Abaixo do peso;
+              </li>
+              <li>
+                Entre 18.5 e 25: Peso ideal;
+              </li>
+              <li>
+                25 até 30: Sobrepeso;
+              </li>
+              <li>
+                30 até 40: Obesidade;
+              </li>
+              <li>
+                Acima de 40: Obesidade mórbida.
+              </li>
+            </strong>
+          </ul>
+        </a>
+      </p>      
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/044.py"> 
+          44. Elabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e condição de pagamento:
+          <ul>
+            <strong>
+              <li>
+                À vista dinheiro / cheque: 10% de desconto;
+              </li>
+              <li>
+                À vista no cartão: 5% de desconto;
+              </li>
+              <li>
+                Em até 2x no cartão: preço normal;
+              </li>
+              <li>
+                3x ou mais no cartão: 20% de juros.
+              </li>
+            </strong>
+          </ul>
+        </a>
+      </p>      
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/045.py"> 
+          45. Crie um programa que faça o computador jogar Jokenpô com você.
+    </div>
+  </section> 
+  
+  <section>
+    <h3 align="center">
+      <i> 
+        Módulo - Repetições em Python (for) 
+      </i>
+    </h3>
+    <div>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/046.py"> 
+          46.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/047.py"> 
+          47.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/048.py"> 
+          48.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/049.py"> 
+          49.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/050.py"> 
+          50.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/051.py"> 
+          51.  
+        </a>
+      </p>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/052.py"> 
+          52. 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/053.py"> 
+          53.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/054.py"> 
+          54. 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/055.py"> 
+          55.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/056.py"> 
+          56.  
+        </a>
+      </p>            
+    </div>
+  </section>
+
+  <section>
+    <h3 align="center">
+      <i> 
+        Módulo - Repetições em Python (while)
+      </i>
+    </h3>
+    <div>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/057.py"> 
+          57.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/058.py"> 
+          58.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/059.py"> 
+          59.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/060.py"> 
+          60.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/061.py"> 
+          61.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/062.py"> 
+          62. 
+        </a>
+      </p>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/063.py"> 
+          63. 
+          <ul>
+            <li>
+              O nome com todas as letras maiúsculas
+            </li>
+            <li>
+              O nome com todas as letras minúsculas
+            </li>
+            <li>
+              Quantas letras no total (sem considerar os espaços)
+            </li>
+            <li>
+              Quantas letras tem o primeiro nome.
+            </li>
+          </ul>
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/064.py"> 
+          64. 
+          <table>
+            <thead align="center">
+              <tr>
+                <td>
+                  <strong>
+                    Ex.: Digite um número: 1834
+                  </strong>
+                </td>
+              </tr>
+            </thead>
+            <tbody align="center">
+              <tr>
+                <td>
+                  unidade: 4
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  dezena: 3
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  centena: 8
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  milhar: 1
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/065.py"> 
+          65.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/066.py"> 
+          66. 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/067.py"> 
+          67. 
+          <ul>
+            <li>
+              Quantas vezes aparece a letra "A"
+            </li>
+            <li>
+              Em que posição ela aparece a primeira vez
+            </li>
+            <li>
+              Em que posição ela aparece a última vez
+            </li>
+          </ul>          
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/068.py"> 
+          68. 
+          <table>
+            <thead align="center">
+              <tr>
+                <td>
+                  <strong>
+                    Ex.: Ana Maria de Souza
+                  </strong>
+                </td>
+              </tr>
+            </thead>
+            <tbody align="center">
+              <tr>
+                <td>
+                  primeiro = Ana
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  último = Souza
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </a>
+      </p>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/069.py"> 
+          69.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/070.py"> 
+          70.  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/071.py"> 
+          71.  
+        </a>
+      </p>            
+    </div>
+  </section>  
+</section>
+
