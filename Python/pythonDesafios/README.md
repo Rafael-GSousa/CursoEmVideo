@@ -588,158 +588,134 @@
     <div>
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/057.py"> 
-          57.  
+          57. Faça um programa que leia o sexo de uma pessoa, mas só aceite os valores 'M' ou 'F'. Caso esteja errado, peça a digitação novamente 
+          até ter um valor correto. 
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/058.py"> 
-          58.  
+          58. Melhore o jogo do DESAFIO 028 onde o computador vai "pensar" em um número entre 0 e 10. Só que agora o jogador vai tentar 
+          adivinhar até acertar, mostrando no final quantos palpites foram necessários para vencer. 
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/059.py"> 
-          59.  
+          59. Crie um programa que leia dois valores e mostre um menu na tela:
+          <ol>
+            <strong>
+              <li>
+                Somar
+              </li>
+              <li>
+                Multiplicar
+              </li>
+              <li>
+                Maior
+              </li>
+              <li>
+                Novos números
+              </li>
+              <li>
+                Sair
+              </li>
+            </strong>
+          </ol>
+          Seu programa deverá realizar a operação solicitada em cada caso.
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/060.py"> 
-          60.  
+          60. Faça um programa que lei um número qualquer e mostre o seu fatorial.
+          Ex.: 5! = 5 x 4 x 3 x 2 x 1 = 120.
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/061.py"> 
-          61.  
+          61. Refaça o desafio 51, lendo o primeiro termo e a razão de uma PA, mostrando os 10 primeiros termos da progressão usando a estrutura while.  
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/062.py"> 
-          62. 
+          62. Melhore o Desafio 061, perguntando para o usuário se ele quer mostrar mais alguns termos. O programa encerra quando ele disser que 
+          quer mostrar 0 termos.
         </a>
       </p>
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/063.py"> 
-          63. 
-          <ul>
-            <li>
-              O nome com todas as letras maiúsculas
-            </li>
-            <li>
-              O nome com todas as letras minúsculas
-            </li>
-            <li>
-              Quantas letras no total (sem considerar os espaços)
-            </li>
-            <li>
-              Quantas letras tem o primeiro nome.
-            </li>
-          </ul>
+          63. Escreva um programa que leia um número n inteiro qualquer e mostre na tela os n primeiros elementos de uma Sequência de Fibonacci. 
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/064.py"> 
-          64. 
-          <table>
-            <thead align="center">
-              <tr>
-                <td>
-                  <strong>
-                    Ex.: Digite um número: 1834
-                  </strong>
-                </td>
-              </tr>
-            </thead>
-            <tbody align="center">
-              <tr>
-                <td>
-                  unidade: 4
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  dezena: 3
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  centena: 8
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  milhar: 1
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          64. Crie um programa que leia vários números inteiros pelo teclado. O programa só vai para quando o usuário digitar o valor 999, que é a condição
+          de parada. No final, mostre quantos números foram digitados e qual foi a soma entre eles (desconsiderando o flag).
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/065.py"> 
-          65.  
+          65. Crie um programa que leia vários números inteiros pela teclado. No final da execução, mostre a média entre todos os valores e qual
+          foi o maior e o menor valores lidos. O programa deve perguntar ao usuário se ele quer ou não continuar a digitar valores.
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/066.py"> 
-          66. 
+          66. Crie um programa que leia vários números inteiros pelo teclado. O programa só vai parar quando o usuário digitar o valor 999, que
+          é a condição de parada. No final, mostre quantos números foram digitados e qual foi a soma entre eles (desconsiderando o flag).
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/067.py"> 
-          67. 
-          <ul>
-            <li>
-              Quantas vezes aparece a letra "A"
-            </li>
-            <li>
-              Em que posição ela aparece a primeira vez
-            </li>
-            <li>
-              Em que posição ela aparece a última vez
-            </li>
-          </ul>          
+          67. Faça um programa que mostre a tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário. O programa será interrompido quando
+          o número solicitado for negativo.
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/068.py"> 
-          68. 
-          <table>
-            <thead align="center">
-              <tr>
-                <td>
-                  <strong>
-                    Ex.: Ana Maria de Souza
-                  </strong>
-                </td>
-              </tr>
-            </thead>
-            <tbody align="center">
-              <tr>
-                <td>
-                  primeiro = Ana
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  último = Souza
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          68. Faça um programa que jogue par ou ímpar com o computador. O jogo só será interrompido quando o jogador PERDER, mostrando o total de 
+          vitórias consecutivas que ele conquistou no final do jogo.
         </a>
       </p>
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/069.py"> 
-          69.  
+          69. Crie um programa que leia a idade e o sexo de várias pessoas. A cada pessoa cadastrada, o programa deverá perguntar se o usuário quer ou não
+          continuar. No final, mostre:
+          <ul>
+            <strong>
+              <li>
+                Quantas pessoas tem mais de 18 anos;
+              </li>
+              <li>
+                Quantos homens foram cadastrados; 
+              </li>
+              <li>
+                Quantas mulheres tem menos de 20 anos.
+              </li>
+            </strong>
+          </ul>
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/070.py"> 
-          70.  
+          70. Crie um programa que leia o nome e o preço de vários produtos. O programa deverá perguntar se o usuário vai continuar. No final, mostre: 
+          <ul>
+            <strong>
+              <li>
+                Qual é o total gasto na compra;
+              </li>
+              <li>
+                Quantos produtos custam mais de R$1000; 
+              </li>
+              <li>
+                Qual é o nome do produto mais barato.
+              </li>
+            </strong>
+          </ul>
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/071.py"> 
-          71.  
+          71. Crie um programa que simule o funcionamento de um caixa eletrônico. No início, pergunte ao usuário qual será o valor a ser sacado (número inteiro)
+          e o programa vai informar quantas cédulas de cada valor serão entregues. Obs.: Considere que o caixa eletrônico possui cédulas de R$50, R$20, R$10 e R$1. 
         </a>
       </p>            
     </div>
