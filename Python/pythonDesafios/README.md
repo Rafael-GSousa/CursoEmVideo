@@ -520,57 +520,60 @@
     <div>
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/046.py"> 
-          46.  
+          46. Faça um programa que mostre na tela uma contagem regressiva para o estouro de fogos de artifício, indo de 10 até 0, com uma pausa de 
+          1 segundo entre eles.
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/047.py"> 
-          47.  
+          47. Crie um programa que mostre na tela todos os números pares que estão no intervalo entre 1 e 50. 
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/048.py"> 
-          48.  
+          48. Faça um programa que calcule a soma entre todos os números ímpares que são múltiplos de três e que se encontram no intervalo de 1 até 500. 
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/049.py"> 
-          49.  
+          49. Refaça o desafio 009, mostrando a tabuada de um número que o usuário escolher, só que agora utilizando um laço for. 
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/050.py"> 
-          50.  
+          50. Desenvolva um programa que leia seis números inteiros e mostre a soma apenas daqueles que forem pares. Se o valor digitado for ímpar, desconsidere-o.  
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/051.py"> 
-          51.  
+          51. Desenvolva um programa que leia o primeiro termo e a razão de uma PA(Progressão Aritmética). No final, mostre os 10 primeiros termos dessa progressão. 
         </a>
       </p>
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/052.py"> 
-          52. 
+          52. Faça um programa que leia um número inteiro e diga se ele é ou não um número primo.
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/053.py"> 
-          53.  
+          53. Crie um programa que leia uma frase qualquer e diga se ela é um palídromo, desconsiderando os espaços. 
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/054.py"> 
-          54. 
+          54. Crie um programa que leia o ano de nascimento de sete pessoas. No final, mostre quantas pessoas ainda não atingiram a 
+          maioridade e quantas já são maiores.
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/055.py"> 
-          55.  
+          55. Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos. 
         </a>
       </p>            
       <p align="justify">
         <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/056.py"> 
-          56.  
+          56. Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa, mostre: a média de idade do grupo, 
+          qual é o nome do homem mais velho e quantas mulheres têm menos de 20 anos. 
         </a>
       </p>            
     </div>
