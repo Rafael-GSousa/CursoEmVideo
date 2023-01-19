@@ -722,3 +722,340 @@
   </section>  
 </section>
 
+<section>
+  <h2 align="center"> 
+    MUNDO 03 
+  </h2>   
+  
+  <section>
+    <h3 align="center">
+      <i> 
+        Módulo - Tuplas em Python 
+      </i>
+    </h3>
+    <div>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/072.py"> 
+          72. Crie um programa que tenha uma tupla totalmente preenchida preenchida com uma contagem por extenso, de zero até vinte.
+          Seu programa deverá ler um número pelo teclado(entre 0 e 20) e mostrá-lo por extenso. 
+        </a>
+      </p>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/073.py"> 
+          73. Crie uma tupla preenchida com os 20 primeiros colocados da Tabela do Campeonato Brasileiro de Futebol, na ordem de colocação. Depois mostre:
+          <ol>
+            <strong>
+              <li>
+               Os 5 primeiros times;
+              </li>
+              <li>
+                Os últimos 4 colocados;
+              </li>
+              <li>
+                Times em ordem alfabética;
+              </li>
+              <li>
+                Em que posição está o time da Chapecoense.
+              </li>
+            </strong>
+          </ol>
+        </a>
+      </p>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/074.py"> 
+          74. Crie um programa que vai gerar cinco números aleatórios e colocar em uma tupla. Depois disso, mostre a listagem de números gerados e também
+          indique o menor e o maior valor que estão na tupla.
+        </a>
+      </p>      
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/075.py"> 
+          75. Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla. No final, mostre:
+          <ul>
+            <strong>
+              <li>
+                Quantas vezes apareceu o valor 9;
+              </li>
+              <li>
+                Em que posição foi digitado o primeiro valor 3;
+              </li>
+              <li>
+                Quais foram os números pares.
+              </li>
+            </strong>
+          </ul>
+        </a>
+      </p>      
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/076.py"> 
+          76. Crie um programa que tenha uma tupla única com nomes de produtos e seus respectivos preços, na sequência. No final, mostre uma listagem 
+          de preços, organizando os dados em forma tabular.
+        </a>
+      </p>      
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/077.py"> 
+          77. Crie um programa que tenha uma tupla com várias palavras(não usar acentos). Depois disso, você deve mostrar, para cada palavra, quais são
+          as suas vogais.
+        </a>
+      </p>      
+    </div>
+  </section> 
+  
+  <section>
+    <h3 align="center">
+      <i> 
+        Módulo - Listas em Python
+      </i>
+    </h3>
+    <div>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/078.py"> 
+          78. Faça um programa que leia 5 valores numéricos e guarde-os em uma lista. No final, mostre qual foi o maior e o menor valor digitado e as suas
+          respectivas posições na lista.
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/079.py"> 
+          79. Crie um programa onde o usuário possa digitar vários valores numéricos e cadastre-os em uma lista. Caso o número já exista lá dentro, ele não
+          será adicionado. No final, serão exibidos todos os valores únicos digitados, em ordem crescente. 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/080.py"> 
+          80. Crie um programa onde o usuário possa digitar cinco valores numéricos e cadastre-os em uma lista, já na posição correta de inserção 
+          (sem usar o sort()). No final, mostre a lista ordenada na tela. 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/081.py"> 
+          81. . 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/082.py"> 
+          82. .  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/083.py"> 
+          83. . 
+        </a>
+      </p>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/084.py"> 
+          84. .
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/085.py"> 
+          85. . 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/086.py"> 
+          86. .
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/086.py"> 
+          87. . 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/087.py"> 
+          87. . 
+        </a>
+      </p>      
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/088.py"> 
+          88. . 
+        </a>
+      </p>      
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/089.py"> 
+          89. . 
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h3 align="center">
+      <i> 
+        Módulo - Dicionários em Python
+      </i>
+    </h3>
+    <div>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/090.py"> 
+          90. . 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/091.py"> 
+          91. . 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/092.py"> 
+          92. :
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/093.py"> 
+          93. .
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/094.py"> 
+          94. .  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/095.py"> 
+          95. .
+        </a>
+      </p>
+    </div>
+  </section>
+  
+  <section>
+    <h3 align="center">
+      <i> 
+        Módulo - Funções em Python
+      </i>
+    </h3>
+    <div>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/096.py"> 
+          96. . 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/097.py"> 
+          97. . 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/098.py"> 
+          98. :
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/099.py"> 
+          99. .
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/100.py"> 
+          100. .  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/101.py"> 
+          101. .
+        </a>
+      </p>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/102.py"> 
+          102. . 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/103.py"> 
+          103. :
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/104.py"> 
+          104. .
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/105.py"> 
+          105. .  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/106.py"> 
+          106. .
+        </a>
+      </p>
+    </div>
+  </section>
+  
+  <section>
+    <h3 align="center">
+      <i> 
+        Módulo - Modularização em Python
+      </i>
+    </h3>
+    <div>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/107.py"> 
+          107. . 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/108.py"> 
+          108. . 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/109.py"> 
+          109. :
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/110.py"> 
+          110. .
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/111.py"> 
+          111. .  
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/112.py"> 
+          112. .
+        </a>
+      </p>
+    </div>
+  </section>
+  
+  <section>
+    <h3 align="center">
+      <i> 
+        Módulo - Tratamento de Erros em Python
+      </i>
+    </h3>
+    <div>
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/113.py"> 
+          113. . 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/114.py"> 
+          114. . 
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/115a.py"> 
+          115a. :
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/115b.py"> 
+          115b. .
+        </a>
+      </p>            
+      <p align="justify">
+        <a href="https://github.com/Rafael-GSousa/CursoEmVideo/blob/main/Python/pythonDesafios/115c.py"> 
+          115c. .  
+        </a>
+      </p>            
+    </div>
+  </section>
+</section>
+  
